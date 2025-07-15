@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
   imports: [RouterOutlet],
   // O template abaixo contém apenas o <router-outlet></router-outlet>, que é o ponto onde o Angular
