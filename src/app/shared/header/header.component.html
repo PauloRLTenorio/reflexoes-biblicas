@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+  <a class="navbar-brand fw-bold" routerLink="/">Reflexões Bíblicas</a>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <div ngbDropdown class="d-inline-block">
+          <button
+            class="btn btn-outline-dark"
+            id="dropdownMenu"
+            ngbDropdownToggle
+          >
+            Temas
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownMenu">
+            <button
+              ngbDropdownItem
+              routerLink="/a-lei-o-amor-e-a-misericordia"
+            >
+              A Lei, o Amor e a Misericórdia
+            </button>
+            <button ngbDropdownItem routerLink="/disciplina-com-amor">
+              Disciplina com Amor
+            </button>
+            <button
+              ngbDropdownItem
+              routerLink="/planejamento-e-prioridades"
+            >
+              Planejamento e Prioridades
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
