@@ -1,0 +1,1 @@
+import{Ja as o,Ka as t,Pa as n,xa as a}from"./chunk-UZKP6X2G.js";var m=class i{static \u0275fac=function(e){return new(e||i)};static \u0275cmp=a({type:i,selectors:[["app-disciplina-com-amor"]],decls:2,vars:0,template:function(e,c){e&1&&(o(0,"p"),n(1,"disciplina-com-amor works!"),t())},encapsulation:2})};export{m as DisciplinaComAmorPage};

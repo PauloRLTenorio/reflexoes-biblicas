@@ -1,0 +1,1 @@
+import{Ja as n,Ka as o,Pa as i,xa as t}from"./chunk-UZKP6X2G.js";var r=class a{static \u0275fac=function(e){return new(e||a)};static \u0275cmp=t({type:a,selectors:[["app-planejamento-e-prioridades"]],decls:2,vars:0,template:function(e,s){e&1&&(n(0,"p"),i(1,"planejamento-e-prioridades works!"),o())},encapsulation:2})};export{r as PlanejamentoEPrioridadesPage};
