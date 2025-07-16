@@ -17,5 +17,12 @@ export const routes: Routes = [
     import('./pages/disciplina-com-amor/disciplina-com-amor.page').then(
       (m) => m.DisciplinaComAmorPage
     )
+  },
+  {
+  path: 'a-lei-o-amor-e-a-misericordia',
+  loadComponent: () =>
+    import('./pages/a-lei-o-amor-e-a-misericordia/a-lei-o-amor-e-a-misericordia.page').then(
+      (m) => m.ALeiOAmorEAMisericordiaPage
+    )
   }
 ];

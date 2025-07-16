@@ -18,6 +18,10 @@ export class HomeComponent {
     {
       nome: 'Disciplina com Amor',
       rota: '/disciplina-com-amor'
+    },
+    {
+      nome: 'A Lei, o Amor e a Misericórdia',
+      rota: '/a-lei-o-amor-e-a-misericordia'
     }
   ];
 }
